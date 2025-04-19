@@ -4,21 +4,21 @@
   text-align: center;
   margin: 0 auto;
 }
-.table-header {
+.header {
   background-color: #2f2f2f;
   color: white;
   padding: 16px;
 }
-.table-title {
+.title {
   color: white;
 }
-.table-body {
+.body {
   padding: 10px;
 }
-.table-item {
+.item {
   border: solid 1px #808080;
 }
-.table-row {
+.row {
   padding: 12px 16px;
   border: 1px solid #ddd;
 }

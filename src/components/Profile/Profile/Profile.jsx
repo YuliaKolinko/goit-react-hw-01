@@ -9,28 +9,23 @@ export default function Profile({
   likes,
 }) {
   return (
-    <div className={styles["profile-wrapper"]}>
+    <div className={styles.wrapper}>
       <div>
-        <img
-          className={styles["profile-img"]}
-          src={avatar}
-          alt={username}
-          width={360}
-        />
-        <p className={styles["user-name"]}>{username}</p>
-        <p className={styles["user-tag"]}> @{tag}</p>
-        <p className={styles["user-location"]}>{location}</p>
+        <img className={styles.img} src={avatar} alt={username} width={360} />
+        <p className={styles.name}>{username}</p>
+        <p className={styles.tag}> @{tag}</p>
+        <p className={styles.location}>{location}</p>
       </div>
-      <ul className={styles["profile-stats"]}>
-        <li className={styles["profile-stats-item"]}>
+      <ul className={styles.stats}>
+        <li className={styles.profile_item}>
           <span>Followers</span>
           <span>{followers}</span>
         </li>
-        <li className={styles["profile-stats-item"]}>
+        <li className={styles.profile_item}>
           <span>Views</span>
           <span>{views}</span>
         </li>
-        <li className={styles["profile-stats-item"]}>
+        <li className={styles.profile_item}>
           <span>Likes</span>
           <span>{likes}</span>
         </li>

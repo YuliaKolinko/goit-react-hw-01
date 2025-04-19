@@ -1,4 +1,4 @@
-.profile-wrapper {
+.wrapper {
   max-width: 300px;
   margin: 0 auto;
   text-align: center;
@@ -10,7 +10,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.profile-img {
+.img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -19,19 +19,19 @@
   background-color: #b3afaf;
 }
 
-.user-name {
+.name {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 4px;
 }
 
-.user-tag,
-.user-location {
+.tag,
+.location {
   color: #777;
   margin-bottom: 8px;
 }
 
-.profile-stats {
+.stats {
   display: flex;
   justify-content: space-around;
   margin-top: 16px;
@@ -40,10 +40,10 @@
   border-radius: 12px;
 }
 
-.profile-stats div {
+.profile div {
   text-align: center;
 }
-.profile-stats-item {
+.profile_item {
   display: flex;
   flex-direction: column;
   gap: 12px;
