@@ -1,0 +1,25 @@
+.friendlist-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.friendlist-img {
+  border-radius: 50%;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+.p {
+  margin: 0;
+}
